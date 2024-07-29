@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weatherstyle.css">
+</head>
+<body>
+
+<div class="mdiv">
+    <div class="container" align="center">
+<h2 align="center">WEATHER FORECAST</h2>
+<div class="form-btn" align="center">
+    <form>
+        <input type="text" name="cname" id="cityName" placeholder="Enter City Name" size="27">
+        <input type="button" name="sbmt" value="FETCH" class="fetchButton" onclick="fetchCityName()">
+    </form>
+</div>
+<div class="other-details" style="margin-top: 50px;" align="center">
+    <h1 id="city">Undefined</h1>
+    <h1 id="temp">Temp : </h1>
+    <h1 id="humidity">Humidity</h1>
+    <h1 id="wind">Wind Speed : 0km/h</h1>
+</div>
+</div>
+</div>
+
+
+    <script src="weatherscript.js">        
+    </script>
+</body>
+</html>

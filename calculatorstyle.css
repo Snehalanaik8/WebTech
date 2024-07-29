@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #ff6525;
+}
+.mdiv{
+    background-color: grey;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-image: url("https://png.pngtree.com/background/20230714/original/pngtree-numbers-background-information-black-computer-photo-picture-image_4222846.jpg");*/
+}
+.container{
+    border-color: #ecf0f3;
+    height: 630px;
+    width: 370px;
+    box-shadow: inset 5px 5px 12px #fff;
+                inset: 5px 5px 12px rgba(0, 0, 0, 0.14);
+    background-color: white;
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 15px;
+}
+input{
+    height: 70px;
+    width: 70px;
+    margin: 4px;
+    margin-bottom: 4px;
+    border-radius: 40%;
+    border: none;
+    box-shadow: inset 5px 5px 12px #fff;
+                inset: 5px 5px 12px rgba(0, 0, 0, 0.14);
+    outline: none;
+    background-color: #ecf0f3;
+    cursor: pointer;
+    color: orange;
+    font-size: 30px;
+}
+.operator2{
+    width: 150px;
+    border-radius: 40px;
+}
+input[type="text"]{
+    background-color: #ecf0f3;
+    height: 90px;
+    width: 90%;
+    border: none;
+    font-size: 60px;
+    text-align: right;
+    margin: 40px auto;
+    border-radius: 30px;
+}
+button{
+    width: 48px;
+    height: 48px;
+    background-color: #ecf0f3;
+    box-shadow: inset 6px 6px 12px #fff;
+    inset: -6px 6px 12px rgba(0,0,0,0.14);
+}
